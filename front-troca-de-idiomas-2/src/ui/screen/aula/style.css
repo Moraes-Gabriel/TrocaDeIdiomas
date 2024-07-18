@@ -1,0 +1,34 @@
+.aula {
+    height: 100vh;
+    width: 100%;
+    background: #e7b425;
+
+}
+
+
+.video {
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+}
+
+.joinCallVideo {
+    border: none;
+    padding: 10px;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 50px;
+    width: 15;
+    background: lightslategray;
+    margin-left: 20px;
+    border-radius: 12px;
+}
+
+.MuiGrid-container {
+     padding: 0 5%;
+}
+
+.agora_video_player {
+    border-left: 10px solid  #d8b30d;
+}

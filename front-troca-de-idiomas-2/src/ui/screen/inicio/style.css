@@ -1,0 +1,128 @@
+.page {
+  height: 100vh;
+  width: 100%;
+  background: #e7b425;
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  margin-top: 40px;
+}
+
+.tabela-soliticao {
+  width: 80%;
+  height: 55%;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.ul-inicio {
+  list-style: none;
+  padding: 0;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.titulo-tabelas {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo-tabelas li {
+  padding: 10px;
+  color: gray;
+  cursor: pointer;
+  border-bottom: 2px solid #e7b425;
+}
+.titulo-tabelas .selected {
+    color: black;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+.titulo-tabelas h2{
+  
+}
+
+.card {
+
+  height: 100px;
+  width: 98%;
+  background-color: white;
+
+  display: flex;
+
+  padding: 5px;
+  border-radius: 12px;
+  margin-bottom: 5px;
+}
+
+.man {
+  display: flex;
+  align-items: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.disponibilidade {
+  width: 250px;
+}
+
+.disponibilidade h2 {
+  margin-left: 2px !important;
+  margin-top: 2px !important;
+
+}
+
+.informacao-aluno {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  width: 200px;
+}
+
+.informacao-aluno p,
+h3 {
+  margin: 2px 0;
+
+}
+
+.div-ver-detalhes {
+  display: flex;
+  align-items: center;
+}
+
+.div-ver-detalhes button {
+  height: 50px;
+  width: 100px;
+  margin-left: 10px;
+  color: white;
+  background-color: #d8b30d;
+  border-radius: 10%;
+  color: white;
+  border-color: #d8b30d;
+}
+
+.botao-entrar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+  align-items: center;
+}
+
+.botao-entrar button {
+  height: 50%;
+
+  height: 60px;
+  border-radius: 10px;
+  color: white;
+  background: blue;
+  border: white;
+}

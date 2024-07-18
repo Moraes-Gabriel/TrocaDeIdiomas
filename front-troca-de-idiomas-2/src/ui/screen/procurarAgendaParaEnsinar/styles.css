@@ -1,0 +1,68 @@
+.container {
+
+  height: 100vh;
+  width: 100%;
+
+  background: #e7b425;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+
+main {
+  margin-top: 10px;
+  width: 48%;
+  border-right: 2px solid grey;
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+select {
+  height: 100%;
+}
+
+.dataPicker {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.btn-buscar {
+
+  height: 50px;
+  width: 100px;
+  margin-left: 10px;
+  color: white;
+  background-color: white;
+  ;
+  border-radius: 10%;
+  color: black;
+  ;
+  border-color: #d8b30d;
+  ;
+
+}
+
+.div-select h2{
+  font-size: 24px;
+}
+.div-select select {
+  height: 50px;
+    width: 203px;
+}
+section {
+  width: 50%;
+  margin-top: 10px;
+}
+

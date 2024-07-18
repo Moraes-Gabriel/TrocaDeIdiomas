@@ -1,0 +1,47 @@
+.card {
+
+    height: 100px;
+    width: 100%;
+    background-color: white;
+  
+    display: flex;
+  
+    padding: 5px;
+    border-radius: 12px;
+    margin-bottom: 5px;
+  }
+  .man {
+    display: flex;
+      align-items: center;
+  }
+  .d-flex {
+    display: flex;
+  }
+  
+  .disponibilidade h2{
+    margin-left: 7px;
+    margin-top: 7px;
+  
+  }
+  .informacao-professor {
+    width: 160px;
+  }
+  .informacao-professor h3{
+    margin: 0;
+  }
+  
+  .div-ver-detalhes  {
+    display: flex;
+    align-items: center;
+  }
+  .div-ver-detalhes button {
+      height: 50px;
+        width: 100px;
+        margin-left: 10px;
+        color: white;
+        background-color: #d8b30d;
+        border-radius: 10%;
+        color: white;
+        border-color: #d8b30d;
+  }
+  
